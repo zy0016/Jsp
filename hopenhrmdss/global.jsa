@@ -1,0 +1,31 @@
+<%@ page import="java.io.*"%> 
+
+<%!
+public void ApplicationInit()
+{
+	//Application.setAttribute("ApplicationName","hrmdss");
+}
+%>
+<%!
+public void ApplicationDestroy()
+{
+	//System.out.println("Application terminated:"+(String)Application.getAttribute("ApplicationName"));
+}
+%>
+<%!
+public void SessionInit(HttpSession Session)
+{
+
+}
+%>
+<%!
+public void SessionDestroy(HttpSession Session)
+{
+	if (session.getValue("peoplephoto")!=null)
+	{
+		String fname=(String)session.getValue("peoplephoto");
+		File f1=new File(fname);
+		f1.delete();
+	}
+}
+%>

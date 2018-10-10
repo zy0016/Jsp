@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+<script language="JavaScript">
+function getvalue()
+{
+	document.form1.textbox.value=document.applets[0].getcount();
+}
+</script>
+<body>
+<!--<object id=object style="HEIGHT:500;WIDTH:500" classid="CLSID:369303C2-D7AC-11d0-89D5-00A0C90833E6">
+  <param name="LINE1" value="SetLineColor(255,0,0)">
+  <param name="LINE2" value="SetFillColor(0,255,0)">
+  <param name="LINE3" value="SetLineStyle(1)">
+  <param name="LINE4" value="Rect(100,100,300,300,0)">
+</object>
+-->
+<applet code="http:172.20.152.151/d:/computer file/jsp/JavaBean/ChartApplet.class" name="chart" width="500" height="500" id="chart" title="applet">
+  <param name="label" value=职称等级分析>
+  <param name="count" value=84>
+  <param name="showdata" value="初级职称(51人)60.71%*中级职称(15人)17.85%*副高级职称(4人)4.76%*高级职称(3人)3.57%*其它(11)13.09%">
+  <param name="citem" value="51*15*4*3*11">
+
+<!--<param name="label" value=学位结构分析>
+  <param name="count" value=167>
+  <param name="showdata" value="博士后(0人)0.0%*名誉博士(0人)0.0%*博士(7人)4.19%*硕士(45人)26.94%*学士(74人)44.31%*其它(41)24.55%">
+  <param name="citem" value="0*0*7*45*74*41">
+-->
+<!--<param name="label" value=学历结构分析>
+  <param name="count" value=167>
+  <param name="showdata" value="研究生(54人)32.33%*大学本科(80人)47.9%*大专和专科学校(30人)17.96%*中专和中技(1人)0.59%*技工学校(0人)0.0%*高中(1人)0.59%*其它(0人)0.0%*其它(1)0.59%">
+  <param name="citem" value="54*80*30*1*0*1*0*1">
+-->
+<!--<param name="label" value=人员性别结构分析>
+  <param name="count" value=151>
+  <param name="showdata" value="男(83人)54.96%*女(68人)45.03%*其它(0)0.0%">
+  <param name="citem" value="83*68*0">
+  -->
+</applet>
+
+<form name="form1" method="post" action="">
+  <input name="b1" type="button" id="b1" onClick="getvalue()" value="获得">
+ <input name="textbox" type="text">
+</form>
+</body>
+</html>

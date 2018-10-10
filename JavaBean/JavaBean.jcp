@@ -1,0 +1,31 @@
+! ** JCreator Project File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.10"
+LABEL := "JavaBean"
+JDKPROFILE := ""
+ACTIVE := "1"
+OUTPUTPATH := "..\\\\JavaBean"
+COMPILER := ""
+
+! Start RunTime Configuration Structure
+#[BeginRunTime]LABEL := "<Default>" RUNAPPLIC := "<Default>" RUNAPPLET := "<Default>" RUNDEBUG := "<Default>" PARAM := "" RUN := "JavaBean.ClassNormal.ClassNormal" CHECK := "10" #[EndRunTime]
+! Start Required Libraries Structure
+
+! Start Project Folder Structure
+#[BeginFolder]
+LABEL := "Root"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\ListTable.java" #[EndFile]
+#[BeginFile]SOURCE := "\\GridTable.java" #[EndFile]
+#[BeginFile]SOURCE := "\\PrintTable.java" #[EndFile]
+#[BeginFile]SOURCE := "\\JavaBean\\ChartApplet\\ChartApplet.html" #[EndFile]
+#[BeginFile]SOURCE := "\\CreateChart.java" #[EndFile]
+#[BeginFile]SOURCE := "\\ChartApplet.java" #[EndFile]
+#[BeginFile]SOURCE := "\\JavaConst.java" #[EndFile]
+#[BeginFile]SOURCE := "ClassNormal.java" #[EndFile]
+#[BeginFile]SOURCE := "OperateDataBase.java" #[EndFile]
+#[BeginFile]SOURCE := "\\ErrorManage.java" #[EndFile]
+#[BeginFile]SOURCE := "\\ComboBox.java" #[EndFile]
+#[EndFolder]
